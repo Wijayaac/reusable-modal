@@ -32,7 +32,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.modal-dialog {
+
+  /* position: relative; */
+  z-index: 999;
+  pointer-events: all;
 }
